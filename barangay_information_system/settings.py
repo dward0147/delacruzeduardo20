@@ -139,12 +139,12 @@ AUTHENTICATION_BACKENDS = ['barangay_information_app.EmailBackEnd.EmailBackEnd']
 # EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
 # EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_mails")
 
-EMAIL_HOST = "smtp.gmail.com"
-EMAIL_PORT = 587
-EMAIL_HOST_USER = "eduardo.delacruzjr2001@gmail.com"
-EMAIL_HOST_PASSWORD = "eduardojr2001"
-EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = "Barangay Information System <eduardo.delacruzjr2001@gmail.com>"
+#EMAIL_HOST = "smtp.gmail.com"
+#EMAIL_PORT = 587
+#EMAIL_HOST_USER = "eduardo.delacruzjr2001@gmail.com"
+#EMAIL_HOST_PASSWORD = "eduardojr2001"
+#EMAIL_USE_TLS = True
+#DEFAULT_FROM_EMAIL = "Barangay Information System <eduardo.delacruzjr2001@gmail.com>"
 
 STATICFILES_STORAGE='whitenoise.storage.CompressedManifestStaticFilesStorage'
 import dj_database_url
